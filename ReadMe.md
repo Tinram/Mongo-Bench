@@ -5,7 +5,7 @@
 
 Very simple import test from standard input for MongoDB.
 
-Creates a large number of JSON lines for 1 second which can be piped to *mongoimport*.
+Creates a large number of JSON lines for 1 second which can be piped to the *mongoimport* command.
 
 
 ## Compilation
@@ -17,9 +17,9 @@ Creates a large number of JSON lines for 1 second which can be piped to *mongoim
 
 ## Usage
 
-`mb | mongoimport --db junk --drop junk --collection years`
-	
-`mb.exe | mongoimport --db junk --drop junk --collection years`
+`mb | mongoimport --db junk --collection years --drop`
+
+`mb.exe | mongoimport --db junk --collection years --drop`
 
 
 ### License

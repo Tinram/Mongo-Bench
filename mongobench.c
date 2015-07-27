@@ -10,12 +10,12 @@
     *                 TCC: mongobench.c mb[.exe]
     *
     * Usage:
-    *                 mb[.exe] | mongoimport --db junk --drop junk --collection years
+    *                 mb[.exe] | mongoimport --db junk --collection years --drop
     *
     * Output:
-    *                 Windows:   insertion count and time reported, stop.
-    *                 Linux:
-    *                            89900      29966/second
+    *                 Windows:   imported 140416 documents
+    *
+    *                 Linux:     89900      29966/second
     *                            210900     35150/second
     *                            ...
     *                            Ctrl + C   quit
